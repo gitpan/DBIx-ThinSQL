@@ -1,0 +1,36 @@
+---
+abstract: 'SQL database interface for Perl'
+author:
+  - 'Mark Lawrence <nomad@null.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  File::chdir: 0
+  Test::Database: 0
+  Test::Fatal: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: gpl3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBIx-ThinSQL
+no_index:
+  directory:
+    - inc
+    - share
+    - t
+    - xt
+requires:
+  DBI: 0
+  Exporter::Tidy: 0
+  File::ShareDir: 0
+  Log::Any: 0
+  Path::Tiny: 0
+resources:
+  license: http://opensource.org/licenses/gpl-3.0.html
+  repository: http://github.com/mlawren/p5-DBIx-ThinSQL/
+version: 0.0.1_1

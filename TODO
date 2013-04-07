@@ -1,0 +1,4 @@
+* implelent qi() for quote_identifier.
+
+* Use the {Statement} attribute for recent SQL sentence
+
