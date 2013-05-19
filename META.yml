@@ -1,5 +1,5 @@
 ---
-abstract: 'SQL database interface for Perl'
+abstract: 'A lightweight SQL helper for DBI'
 author:
   - 'Mark Lawrence <nomad@null.net>'
 build_requires:
@@ -31,6 +31,8 @@ requires:
   Log::Any: 0
   Path::Tiny: 0
 resources:
+  bugtracker: https://github.com/mlawren/p5-DBIx-ThinSQL/issues
+  homepage: https://github.com/mlawren/p5-DBIx-ThinSQL
   license: http://opensource.org/licenses/gpl-3.0.html
-  repository: http://github.com/mlawren/p5-DBIx-ThinSQL/
-version: 0.0.1_1
+  repository: git://github.com/mlawren/p5-DBIx-ThinSQL.git
+version: 0.0.1_2

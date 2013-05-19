@@ -1,3 +1,8 @@
+* Convert all exported subs into non-anonymous package subs
+
+* check for nothing returned from select statements: what should be
+returned by hashes, arrays, etc?
+
 * implelent qi() for quote_identifier.
 
 * Use the {Statement} attribute for recent SQL sentence
