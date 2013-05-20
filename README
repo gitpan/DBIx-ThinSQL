@@ -2,7 +2,7 @@ NAME
     DBIx::ThinSQL - A lightweight SQL helper for DBI
 
 VERSION
-    0.0.1 (yyyy-mm-dd) development release.
+    0.0.2 (yyyy-mm-dd) development release.
 
 SYNOPSIS
         use strict;
@@ -79,6 +79,8 @@ SYNOPSIS
         })
 
 DESCRIPTION
+    Sorry, this documentation is invalid or out of date.
+
     DBIx::ThinSQL is an extension to the Perl Database Interface (DBI). It
     is designed for complicated queries and efficient access to results.
     With an API that lets you easily write almost-raw SQL, DBIx::ThinSQL

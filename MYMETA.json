@@ -1,0 +1,63 @@
+{
+   "abstract" : "A lightweight SQL helper for DBI",
+   "author" : [
+      "Mark Lawrence <nomad@null.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBIx-ThinSQL",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "share",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36",
+            "File::chdir" : "0",
+            "Test::Database" : "0",
+            "Test::Fatal" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DBI" : "0",
+            "Exporter::Tidy" : "0",
+            "File::ShareDir" : "0",
+            "Log::Any" : "0",
+            "Path::Tiny" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mlawren/p5-DBIx-ThinSQL/issues"
+      },
+      "homepage" : "https://github.com/mlawren/p5-DBIx-ThinSQL",
+      "license" : [
+         "http://opensource.org/licenses/gpl-3.0.html"
+      ],
+      "repository" : {
+         "url" : "git://github.com/mlawren/p5-DBIx-ThinSQL.git"
+      }
+   },
+   "version" : "0.0.2"
+}
