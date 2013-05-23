@@ -24,6 +24,16 @@ no_index:
     - share
     - t
     - xt
+  package:
+    - DBIx::ThinSQL::Driver
+    - DBIx::ThinSQL::Driver::Pg
+    - DBIx::ThinSQL::Driver::SQLite
+    - DBIx::ThinSQL::_bv
+    - DBIx::ThinSQL::_expr
+    - DBIx::ThinSQL::_qi
+    - DBIx::ThinSQL::_qv
+    - DBIx::ThinSQL::db
+    - DBIx::ThinSQL::st
 requires:
   DBI: 0
   Exporter::Tidy: 0
@@ -35,4 +45,4 @@ resources:
   homepage: https://github.com/mlawren/p5-DBIx-ThinSQL
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: git://github.com/mlawren/p5-DBIx-ThinSQL.git
-version: 0.0.4
+version: 0.0.5_1
