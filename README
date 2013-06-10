@@ -2,7 +2,7 @@ NAME
     DBIx::ThinSQL - A lightweight SQL helper for DBI
 
 VERSION
-    0.0.6 (yyyy-mm-dd) development release.
+    0.0.8 (2013-06-11) development release.
 
 SYNOPSIS
         use strict;
@@ -33,7 +33,7 @@ SYNOPSIS
         my $count = $db->xdo(
             update => 'actors',
             set    => { name => 'Jack Smith' },
-            where  => { id => 1, name => 'John Smith' },
+            where  => { id => 1, name => \'IS NOT NULL' },
         );
 
         # A "where" with an ARRAYref concatenates items together. Note the
@@ -136,12 +136,15 @@ DBH METHODS
         Calls to "txn" can be nested. Savepoints will be used by nested
         "txn" calls for databases that support them.
 
-    dump( $sql )
+    dump( $sql, [ @bind_values ] )
     xdump( @tokens )
         Debugging shortcut methods. Take either an SQL string (for "dump")
         or a set of tokens (for "xdump"), run the query, and then call the
         "dump_results" (which pretty-prints to STDOUT) on the resulting
         statement handle.
+
+    log_debug( $sql, [ @bind_values ] )
+        Like "dump" but sends the results to Log::Any "debug()".
 
 STH METHODS
     array -> ARRAYREF

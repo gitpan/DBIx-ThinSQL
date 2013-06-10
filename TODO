@@ -1,3 +1,5 @@
+* Consider use of SQL::Splitstatement in Deploy
+
 * Convert all exported subs into non-anonymous package subs
 
 * check for nothing returned from select statements: what should be
