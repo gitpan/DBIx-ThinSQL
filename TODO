@@ -1,3 +1,5 @@
+* Rename $Test::DBIx::ThinSQL::SHARE_DIR to $DBIx::ThinSQL::SHARE_DIR.
+
 * Consider use of SQL::Splitstatement in Deploy
 
 * Convert all exported subs into non-anonymous package subs

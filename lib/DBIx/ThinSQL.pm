@@ -70,7 +70,7 @@ use Exporter::Tidy
   };
 
 our @ISA     = 'DBI';
-our $VERSION = '0.0.10';
+our $VERSION = '0.0.12';
 
 sub _ejoin {
     my $joiner = shift;
@@ -300,7 +300,7 @@ sub xdo {
 
 sub log_debug {
     my $self = shift;
-    my $sql  = shift . "\n";
+    my $sql  = (shift) . "\n";
 
     my $sth = $self->prepare( $sql . ';' );
     $sth->execute(@_);
