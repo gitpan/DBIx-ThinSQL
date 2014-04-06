@@ -11,3 +11,12 @@ returned by hashes, arrays, etc?
 
 * Use the {Statement} attribute for recent SQL sentence
 
+* Handle this properly:
+
+    where => [
+        { status => [ 'Active', 'Expansion', 'Greenfield' ] },
+        ' OR ', { status => undef }
+      ],
+
+    WHERE
+        status IN (?,?,?) OR status IS NULL
