@@ -20,3 +20,5 @@ returned by hashes, arrays, etc?
 
     WHERE
         status IN (?,?,?) OR status IS NULL
+
+* drop_tables() should be done with "DROP TABLE" statements
