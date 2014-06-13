@@ -20,7 +20,7 @@ lib/DBIx/ThinSQL/Deploy.pod
 lib/DBIx/ThinSQL/Drop.pm
 lib/DBIx/ThinSQL/Drop.pod
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 README
 share/Deploy/Pg/01-deploy.sql
@@ -49,4 +49,3 @@ t/share/deploy2/1.sql
 t/share/deploy2/2.pl
 t/share/deploy2/3.sql
 t/share/deploy2/4.pl
-TODO
